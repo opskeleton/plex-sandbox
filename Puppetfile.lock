@@ -1,0 +1,21 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    WhatsARanjit-plexmediaserver (2.2.0)
+      nanliu-staging (>= 0)
+      puppetlabs-stdlib (>= 0)
+    nanliu-staging (1.0.3)
+    puppetlabs-stdlib (4.9.0)
+
+GIT
+  remote: git://github.com/ripienaar/puppet-module-data.git
+  ref: master
+  sha: 324e79829b29734bd711a991baadb27ae5331642
+  specs:
+    rip-module-data (0.4.0)
+
+DEPENDENCIES
+  WhatsARanjit-plexmediaserver (>= 0)
+  puppetlabs-stdlib (>= 0)
+  rip-module-data (>= 0)
+

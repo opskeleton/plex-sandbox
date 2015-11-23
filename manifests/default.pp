@@ -1,3 +1,6 @@
-node 'plex.local' {
-
+node default {
+  Service {
+    provider => 'systemd'
+  }
+  include plexmediaserver
 }
